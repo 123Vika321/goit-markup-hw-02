@@ -1,0 +1,178 @@
+@import "modern-normalize/modern-normalize.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Roboto", sans-serif; /* Основний шрифт (ваги 400, 500, 700) */
+  --second-family: "Raleway", sans-serif; /* Додатковий шрифт (вага 700) */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--slate);
+  background-color: ;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+}
+
+.header-nav-logo {
+  font-family: var(--second-family);
+  color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  text-transform: uppercase;
+}
+
+.header-logo-path {
+  color: var(--iris);
+}
+
+.header-nav a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--navy-blue);
+}
+
+.hero-title {
+  font-family: var(--font-family);
+  font-size: 56px;
+  line-height: 107%;
+  color: var(--white);
+  background: var(--navy-blue);
+}
+
+.header-nav .button {
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+.important-text {
+  font-weight: 700;
+}
+
+.hero-button {
+  color: var(--white);
+  background-color: var(--iris);
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background: var(--ocean);
+}
+
+.header-contacts-item a {
+  color: var(--slate);
+}
+
+.header-contacts-item a:hover,
+.header-contacts-item a:focus {
+  cursor: pointer;
+  color: var(--ocean);
+}
+
+.main-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+}
+
+.main-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+}
+
+.teams-title-main {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  color: var(--navy-blue);
+}
+
+.portfolio-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  color: var(--navy-blue);
+}
+
+.portfolio-category {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+}
+
+.portfolio-content {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+}
+
+.bottom-logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  color: var(--cloud);
+  text-transform: uppercase;
+  background: var(--navy-blue);
+}
+
+.bottom {
+  background: var(--navy-blue);
+}
+
+.bottom-logo-path {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  color: var(--iris);
+}
+
+.bottom-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--cloud);
+}
