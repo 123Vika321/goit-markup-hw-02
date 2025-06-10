@@ -1,9 +1,7 @@
 @import "modern-normalize/modern-normalize.css";
 
 * {
-  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 :root {
@@ -38,7 +36,7 @@ h3 {
   font-weight: 700;
 }
 
-.header-nav-logo {
+.header-navigation-logo {
   font-family: var(--second-family);
   color: var(--iris);
   font-weight: 700;
@@ -52,7 +50,7 @@ h3 {
   color: var(--navy-blue);
 }
 
-.header-nav-list {
+.header-navigation-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -60,8 +58,11 @@ h3 {
   color: var(--navy-blue);
 }
 
-.header-nav-list:hover a,
-.header-nav-list:focus a {
+.header-navigation-list:hover a {
+  color: var(--ocean);
+}
+.header-navigation-list a[href="#Portfolio"]:focus,
+.header-navigation-list a[href="#Portfolio"]:active {
   color: var(--ocean);
 }
 
@@ -114,12 +115,18 @@ h3 {
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background: var(--ocean);
 }
-
+.main-list {
+  background-color: var(--white);
+}
 .main-title {
   font-family: var(--font-family);
   font-weight: 500;
