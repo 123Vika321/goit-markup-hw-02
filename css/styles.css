@@ -50,12 +50,24 @@ h3 {
   color: var(--navy-blue);
 }
 
+.header-navigation-list a[href="./index.html"] {
+  color: var(--grey);
+}
+.header-navigation-list:first-child a:hover,
+.header-navigation-list:first-child a:focus {
+  color: #404bbf;
+}
+
 .header-navigation-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--grey);
+}
+.header-navigation-list a[href=""]:focus,
+.header-navigation-list a[href=""]:active {
+  color: var(--ocean);
 }
 
 .header-navigation-list:hover a {
@@ -148,10 +160,6 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.teams {
-  background-color: var(--cloud);
-}
-
 .teams-list {
   background-color: var(--white);
 }
@@ -164,6 +172,7 @@ h3 {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 
 .teams-photos {
