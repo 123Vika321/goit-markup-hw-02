@@ -21,15 +21,17 @@
     <header class="header" id="top">
       <nav>
         <a class="header-nav-logo" href="./index.html"
-          ><span class="header-logo-path">Web</span>Studio</a
+          >Web<span class="header-logo">Studio</span></a
         >
         <ul class="header-nav">
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li class="header-nav-list"><a href="./index.html">Studio</a></li>
+          <li class="header-nav-list"><a href="#Portfolio">Portfolio</a></li>
+          <li class="header-nav-list">
+            <a href="#header-contacts-item">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
+      <address class="header-contacts-list">
         <ul class="header-contacts">
           <li class="header-contacts-item">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -46,7 +48,7 @@
         <button type="button" class="hero-button">Order Service</button>
       </section>
       <section class="main" id="benefits">
-        <h2>Company features</h2>
+        <h2 hidden>Company features</h2>
         <ul>
           <li>
             <h3 class="main-title">Strategy</h3>
@@ -80,8 +82,8 @@
       </section>
       <section class="teams" id="team">
         <h2 class="teams-title-main">Our Team</h2>
-        <ul>
-          <li>
+        <ul class="teams-list">
+          <li class="teams-photos">
             <img
               src="./images/img1.jpg"
               width="264"
@@ -92,7 +94,7 @@
             <h3 class="teams-title">Mark Guerrero</h3>
             <p class="teams-text">Product Designer</p>
           </li>
-          <li>
+          <li class="teams-photos">
             <img
               src="./images/img2.jpg"
               width="264"
@@ -103,7 +105,7 @@
             <h3 class="teams-title">Tom Ford</h3>
             <p class="teams-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="teams-photos">
             <img
               src="./images/img3.jpg"
               width="264"
@@ -114,7 +116,7 @@
             <h3 class="teams-title">Camila Garcia</h3>
             <p class="teams-text">Marketing</p>
           </li>
-          <li>
+          <li class="teams-photos">
             <img
               src="./images/img4.jpg"
               width="264"
@@ -132,70 +134,65 @@
         <ul class="portfolio-list">
           <li class="portfolio-cart">
             <img
-              src="./images/img-min.jpg"
+              src="./images/app.jpg"
               width="360"
               height="300"
               alt="banking-app"
             />
             <h3 class="portfolio-category">Banking App</h3>
-            <p class="portfolio-content">App</p>
+            <p class="portfolio-text">App</p>
           </li>
           <li class="portfolio-cart">
             <img
-              src="./images/img (1)-min.jpg"
+              src="./images/qr-code.jpg"
               width="360"
               height="300"
               alt="qr-code"
             />
             <h3 class="portfolio-category">Cashless Payment</h3>
-            <p class="portfolio-content">Marketing</p>
+            <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-cart">
             <img
-              src="./images/img (2)-min.jpg"
+              src="./images/laptop.jpg"
               width="360"
               height="300"
               alt="laptop add phone"
             />
             <h3 class="portfolio-category">Meditation App</h3>
-            <p class="portfolio-content">App</p>
+            <p class="portfolio-text">App</p>
           </li>
           <li class="portfolio-cart">
             <img
-              src="./images/img (3)-min.jpg"
+              src="./images/taxi.jpg"
               width="360"
               height="300"
               alt="taxi pay"
             />
             <h3 class="portfolio-category">Taxi Service</h3>
-            <p class="portfolio-content">Marketing</p>
+            <p class="portfolio-text">Marketing</p>
           </li>
           <li class="portfolio-cart">
             <img
-              src="./images/img (5)-min.jpg"
+              src="./images/screen.jpg"
               width="360"
               height="300"
               alt="screenshot"
             />
             <h3 class="portfolio-category">Screen Illustrations</h3>
-            <p class="portfolio-content">Design</p>
+            <p class="portfolio-text">Design</p>
           </li>
           <li class="portfolio-cart">
-            <img
-              src="./images/img (4)-min.jpg"
-              width="360"
-              height="300"
-              alt="girl"
-            />
+            <img src="./images/girl.jpg" width="360" height="300" alt="girl" />
             <h3 class="portfolio-category">Online Courses</h3>
-            <p class="portfolio-content">Marketing</p>
+            <p class="portfolio-text">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="bottom">
       <a class="bottom-logo" href="./index.html"
-        ><span class="bottom-logo-path">Web</span>Studio</a
+        >Web<span class="bottom-logo-path">Studio</span></a
       >
       <p class="bottom-text">
         Increase the flow of customers and sales for your business with digital

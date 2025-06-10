@@ -1,4 +1,5 @@
 @import "modern-normalize/modern-normalize.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +28,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: var(--slate);
-  background-color: ;
+  background-color: #ffffff;
 }
 
 h1,
@@ -39,23 +40,60 @@ h3 {
 
 .header-nav-logo {
   font-family: var(--second-family);
-  color: var(--navy-blue);
+  color: var(--iris);
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-.header-logo-path {
-  color: var(--iris);
+.header-logo {
+  color: var(--navy-blue);
 }
 
-.header-nav a {
-  font-family: var(--font-family);
+.header-nav-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
+}
+
+.header-nav-list:hover a,
+.header-nav-list:focus a {
+  color: var(--ocean);
+}
+
+.header-contacts-list {
+  font-style: normal;
+}
+
+.header-contacts-item a {
+  color: var(--slate);
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts-item a:hover,
+.header-contacts-item a:focus {
+  cursor: pointer;
+  color: var(--ocean);
+}
+
+.header-nav .button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.header-nav .button:focus {
+  color: var(--ocean);
+}
+
+.hero {
+  background-color: var(--grey);
 }
 
 .hero-title {
@@ -64,11 +102,8 @@ h3 {
   line-height: 107%;
   color: var(--white);
   background: var(--navy-blue);
-}
-
-.header-nav .button {
-  font-family: var(--font-family);
-  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .important-text {
@@ -78,25 +113,11 @@ h3 {
 .hero-button {
   color: var(--white);
   background-color: var(--iris);
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   cursor: pointer;
 }
 
 .hero-button:hover {
   background: var(--ocean);
-}
-
-.header-contacts-item a {
-  color: var(--slate);
-}
-
-.header-contacts-item a:hover,
-.header-contacts-item a:focus {
-  cursor: pointer;
-  color: var(--ocean);
 }
 
 .main-title {
@@ -105,6 +126,10 @@ h3 {
   font-size: 20px;
   line-height: 120%;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .main-text {
@@ -113,6 +138,15 @@ h3 {
   font-size: 16px;
   line-height: 150%;
   color: var(--slate);
+  letter-spacing: 0.02em;
+}
+
+.teams {
+  background-color: var(--cloud);
+}
+
+.teams-list {
+  background-color: var(--white);
 }
 
 .teams-title-main {
@@ -120,7 +154,39 @@ h3 {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: var(--navy-blue);
+}
+
+.teams-photos {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.teams-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.teams-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
 }
 
 .portfolio-title {
@@ -129,6 +195,9 @@ h3 {
   font-size: 36px;
   line-height: 111%;
   color: var(--navy-blue);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-category {
@@ -137,14 +206,20 @@ h3 {
   font-size: 20px;
   line-height: 120%;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
 }
 
-.portfolio-content {
+.portfolio-text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: var(--slate);
+  letter-spacing: 0.02em;
+}
+
+.bottom {
+  background: var(--navy-blue);
 }
 
 .bottom-logo {
@@ -152,13 +227,9 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
-  color: var(--cloud);
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  background: var(--navy-blue);
-}
-
-.bottom {
-  background: var(--navy-blue);
+  color: var(--iris);
 }
 
 .bottom-logo-path {
@@ -166,7 +237,9 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
-  color: var(--iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
 }
 
 .bottom-text {
@@ -175,4 +248,5 @@ h3 {
   font-size: 16px;
   line-height: 150%;
   color: var(--cloud);
+  letter-spacing: 0.02em;
 }
