@@ -67,15 +67,6 @@ h3 {
   color: var(--ocean);
 }
 
-.header-navigation-list-next {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
 .header-navigation > li:nth-child a[href=""] {
   color: #2e2f42;
 }
@@ -101,14 +92,14 @@ h3 {
   color: #434455;
 }
 
-.header-nav .button {
+.header-navigation .button {
   font-family: var(--font-family);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
-.header-nav .button:focus {
+.header-navigation .button:focus {
   color: var(--ocean);
 }
 
