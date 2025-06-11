@@ -50,12 +50,15 @@ h3 {
   color: var(--navy-blue);
 }
 
-.header-navigation-list a[href="./index.html"] {
+.header-navigation-list a[href=""] {
   color: var(--grey);
+  cursor: default; /* Вказує, що посилання не клікабельне */
 }
-.header-navigation-list:first-child a:hover,
-.header-navigation-list:first-child a:focus {
-  color: #404bbf;
+
+.header-navigation-list a[href=""]:hover,
+.header-navigation-list a[href=""]:focus {
+  color: var(--ocean);
+  text-decoration: none;
 }
 
 .header-navigation-list {
@@ -65,16 +68,8 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
-.header-navigation-list a[href=""]:focus,
-.header-navigation-list a[href=""]:active {
-  color: var(--ocean);
-}
 
 .header-navigation-list:hover a {
-  color: var(--ocean);
-}
-.header-navigation-list a[href="#Portfolio"]:focus,
-.header-navigation-list a[href="#Portfolio"]:active {
   color: var(--ocean);
 }
 
@@ -160,6 +155,12 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+/*tree section*/
+
+.teams {
+  background-color: var(--white);
+}
+
 .teams-list {
   background-color: var(--white);
 }
@@ -182,7 +183,6 @@ h3 {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
 }
 
 .teams-title {
