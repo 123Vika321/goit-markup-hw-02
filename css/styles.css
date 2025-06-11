@@ -50,36 +50,48 @@ h3 {
   color: var(--navy-blue);
 }
 
-.header-navigation-list: a:hover {
-  color: var(--ocean);
-}
-
-.header-navigation-list: a:focus,
-.header-navigation-list: a:active {
-  color: var(--ocean);
-}
-
 .header-navigation-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--grey);
+  color: var(--navy-blue);
+}
+
+.header-navigation-list a:hover,
+.header-navigation-list a:focus,
+.header-navigation-list a:active {
+  color: var(--ocean);
+}
+
+.header-navigation-list-next {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-navigation-list-next a:hover {
+  color: var(--ocean);
 }
 
 .header-contacts-list {
   font-style: normal;
 }
 
-.header-contacts-item a {
-  color: var(--slate);
+.header-contacts-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
-.header-contacts-item:hover,
-.header-contacts-item:focus {
-  cursor: pointer;
+.header-contacts-item a:hover,
+.header-contacts-item a:focus {
   color: var(--ocean);
 }
 
