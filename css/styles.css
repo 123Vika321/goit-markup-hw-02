@@ -49,6 +49,9 @@ h3 {
 .header-logo {
   color: var(--navy-blue);
 }
+.header-navigation-list-link {
+  color: #2e2f42;
+}
 
 .header-navigation-list {
   font-weight: 500;
@@ -73,8 +76,8 @@ h3 {
   color: var(--navy-blue);
 }
 
-.header-navigation-list-next a:hover {
-  color: var(--ocean);
+.header-navigation > li:nth-child a[href=""] {
+  color: #2e2f42;
 }
 
 .header-contacts-list {
@@ -93,6 +96,9 @@ h3 {
 .header-contacts-item a:hover,
 .header-contacts-item a:focus {
   color: var(--ocean);
+}
+.header-contacts-link {
+  color: #434455;
 }
 
 .header-nav .button {
